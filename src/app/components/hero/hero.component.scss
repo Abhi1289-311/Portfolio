@@ -1,0 +1,55 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 3rem;
+  flex-wrap: wrap;
+  min-height: 90vh;
+
+  .text-content {
+    flex: 1;
+    max-width: 500px;
+
+    h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+
+      .highlight {
+        color: #00bcd4;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-btn {
+      padding: 0.8rem 1.5rem;
+      background-color: #00bcd4;
+      color: #0f0f0f;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+
+      &:hover {
+        background-color: #0194a7;
+      }
+    }
+  }
+
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 300px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.4);
+    }
+  }
+}

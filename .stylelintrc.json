@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": [
+    "**/*.ts",
+    "**/*.js",
+    "**/*.html"
+  ],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["use", "forward", "include", "mixin", "function", "if", "else", "return", "each", "for", "while"]
+      }
+    ]
+  }
+}
